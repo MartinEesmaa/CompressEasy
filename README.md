@@ -6,11 +6,13 @@ On 1st June 2022, CompressEasy is not yet ready, but you can have look an source
 
 # Supported compressed (compatability on Windows)
 
-Windows 3.1: BMP, AVI (Microsoft RLE/Video 1, Indeo Video), WAV (available MP3, ZIP, MPG (MPEG-1, MPEG-2))
+Windows 3.1: BMP, AVI (Microsoft RLE/Video 1, Indeo Video & Cinepak), WAV, (external available of MP3, ZIP, MPG (MPEG-1, MPEG-2))
+
+We strong recommend using VLC or MPV to play your media file, starting Windows XP and later.
 
 # Stream companies
 
-Most stream companies use x264 than MPEG-2, so the customers don't have to download, no lossless, good compatability for TV friendly.
+Most stream companies use x264 than MPEG-2, so the customers don't have to download, no lossless, good stream compatability for TV friendly.
 
 ### Estonian Public Broadcasting (Eesti Rahvusringhääling)
 
