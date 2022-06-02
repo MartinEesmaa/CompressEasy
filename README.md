@@ -8,6 +8,16 @@ On 1st June 2022, CompressEasy is not yet ready, but you can have look an source
 
 Windows 3.1: BMP, AVI (Microsoft RLE/Video 1, Indeo Video & Cinepak), WAV, (external available of MP3, ZIP, MPG (MPEG-1, MPEG-2))
 
+Windows 2000:
+
+# Video codecs availability
+
+Windows | Cinepak | Microsoft Video 1 | Indeo Video | Microsoft RLE |
+------- | --- | --------- | --------- | --------- |
+Media Player 3.1 / Windows 3.x | :x: | :white_check_mark: | :x: | :white_check_mark:
+Media Player 3.15 / Windows 3.x | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark:
+Windows 95
+
 We strong recommend using VLC or MPV to play your media file, starting Windows XP and later.
 
 # Stream companies
