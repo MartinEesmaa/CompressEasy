@@ -12,10 +12,10 @@ Windows 2000:
 
 # Video codecs availability
 
-Windows | Cinepak | Microsoft Video 1 | Indeo Video | Microsoft RLE | MPEG-1 | MPEG-2 | MP43 | MP4S | AP41 | WMV7 | WMV8 | WMV9 | XVID | SWF | VP6 | VP8 | VP9 | AVC | HEVC | AV1
-------- | --- | --------- | --------- | --------- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-Media Player 3.1 / Windows 3.x | :x: | :white_check_mark: | :x: | :white_check_mark: | ⚠️ | ⚠️ | :x: | :x: | :x: | :x: | :x: | :x: | :x: | ⚠️ (3) | :x: | :x: | :x: | :x: | :x: | :x: |
-Media Player 3.15 / Windows 3.x | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | ⚠️ | ⚠️ | :x: | :x: | :x: | :x: | :x: | :x: | :x: | ⚠️ (3) | :x: | :x: | :x: | :x: | :x: | :x: |
+Windows | CVID | CRAM | Indeo Video | Microsoft RLE | MPEG-1 | MPEG-2 | MP43 | MP4S | AP41 | WMV1 | WMV8 | WMV9 | XVID | SWF | VP6 | VP8 | VP9 | AVC | HEVC | AV1 | AJPG | ARBC | ASV2 | BLZ0 | BT20 | CFCC | CFHD | CGDI | CSCD | DIGI | DUCK | DVSD | DXGM | EM4A | ES07 | FVFW | G2M2 | G2M3 | G2M4 | GAVC | I263 | IMM4 | IV32 | IV41 | IV50 | JPGL | L264 |
+--- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+Media Player 3.1 | :x: | :white_check_mark: | :x: | :white_check_mark: | ⚠️ | ⚠️ | :x: | :x: | :x: | :x: | :x: | :x: | :x: | ⚠️ (3) | :x: | :x: | :x: | :x: | :x: | :x: |
+Media Player 3.15 | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | ⚠️ | ⚠️ | :x: | :x: | :x: | :x: | :x: | :x: | :x: | ⚠️ (3) | :x: | :x: | :x: | :x: | :x: | :x: |
 Media Player 6.1 | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | ⚠️ | ⚠️ | :x: | :x: | :x: | :x: | :x: | :x: | :x: | ⚠️ | :x: | :x: | :x: | :x: | :x: | :x: |
 Media Player 6.4 | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :black_square_button: | ⚠️ | :x: | :x: | :x: | :x: | :x: | :x: | :x: | ⚠️ | :x: | :x: | :x: | :x: | :x: | :x: |
 Media Player 7.0 | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | ⚠️ | :white_check_mark: | :x: | :x: | :x: | ⚠️ | :x: | :x: | :x: | :x: | :x: | :x: |
@@ -24,7 +24,7 @@ Media Player 8.0 | :white_check_mark: | :white_check_mark: | :white_check_mark: 
 Media Player 9.0 | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | ⚠️ | :white_check_mark: | :white_check_mark: | :white_check_mark: | ⚠️ | ⚠️ (9) | ⚠️ | :x: | :x: | :x: | :x: | :x: |
 Media Player 10.0 | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | ⚠️ | :white_check_mark: | :white_check_mark: | :white_check_mark: | ⚠️ | ⚠️ | ⚠️ | :x: | :x: | :x: | :x: | :x: |
 Media Player 11.0 | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | ⚠️ | :white_check_mark: | :white_check_mark: | :white_check_mark: | ⚠️ | ⚠️ | ⚠️ | :x: | :x: | :x: | :x: | :x: |
-Media Player 12.0 | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | ⚠️ | ⚠️ | ⚠️ |
+Media Player 12.0 | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | ⚠️ | ⚠️ | ❗ | ❗ | ❗ | ❗ | ❗ |
 
 :white_check_mark: = Ready to play, compatible
 
@@ -32,7 +32,7 @@ Media Player 12.0 | :white_check_mark: | :white_check_mark: | :white_check_mark:
 
 :x: = Not compatible
 
-:black_square_button: = Not tested yet
+:black_square_button: or Empty box = Not tested yet
 
 We strong recommend using VLC or MPV to play your media file, starting Windows XP and later.
 
