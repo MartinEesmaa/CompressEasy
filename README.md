@@ -42,7 +42,11 @@ Most stream companies use x264 than MPEG-2, so the customers don't have to downl
 
 ### Estonian Public Broadcasting (Eesti Rahvusringhääling)
 
-The company uses x264 version: x264 core 160 r3000 33f9e14
+The company uses currently x264 version: x264 core 163
+
+2021 version: x264 core 160 r3000 33f9e14
+
+2020 version: x264 core 149 r2802M 8c29742
 
 1080p (FHD):
 
@@ -60,6 +64,12 @@ ffmpeg -i naiteks.mp4 -c:v libx264 -x264-params "nal-hrd=none" -x264opts keyint=
 
 ```
 ffmpeg -i naiteks.mp4 -c:v libx264 -x264-params "nal-hrd=none" -x264opts keyint=50:min-keyint=26:scenecut=0 -b:v 1M -maxrate 1M -bufsize 3M -r 25 -vf scale=704:396 -pix_fmt yuv420p -color_primaries bt709 -color_trc bt709 -colorspace bt709 -color_range tv -c:a aac -ac 2 -ar 48000 -b:a 128k kokkuvote.mp4
+```
+
+720p (old command of 2020):
+
+```
+ffmpeg -i naiteks.mp4 -c:v libx264 -x264-params "nal-hrd=none" -x264opts keyint=50:min-keyint=26:scenecut=0 -b:v 1.5M -maxrate 1.5M -bufsize 4M -r 25 -vf scale=1280:720 -pix_fmt yuv420p -color_primaries bt709 -color_trc bt709 -colorspace bt709 -color_range tv -c:a aac -ac 2 -ar 44100 -b:a 128k kokkuvote.ts
 ```
 
 More coming soon...
