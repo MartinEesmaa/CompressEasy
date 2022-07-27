@@ -58,7 +58,19 @@ https://vod21.err.ee/dash/vod/1145614/v/manifest.mpd
 
 `manifest.mpd` = Reads XML by video, audio and subtitle.
 
-FFplay and FFmpeg can play Estonian Public Broadcasting videos without browser.
+FFplay and FFmpeg can play/download Estonian Public Broadcasting videos without browser before expires or not.
+
+```
+ffplay https://vod21.err.ee/dash/vod/1145614/v/manifest.mpd
+ffmpeg -i https://vod21.err.ee/dash/vod/1145614/v/manifest.mpd -codec copy 2015-022968-0001_0001_D10_MULTIFILM-JUSSIKESE-SEITSE-SOPRA_ERR.mp4
+```
+
+Switch video tracks by pressing `v` or audio tracks by pressing `a` on ffplay. For encode, use FFprobe first before FFmpeg, you need `map` command to keep only one video and audio track, see the FFmpeg instructions: https://trac.ffmpeg.org/wiki/Map
+
+You can find starts type with `dash` on Mozilla Firefox only, see screenshot:
+
+![etvdasheesti](https://user-images.githubusercontent.com/88035011/181235419-de224806-334b-4d17-983f-5b1ba140522f.png)
+
 
 The company uses currently x264 version: x264 core 163
 
