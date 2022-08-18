@@ -23,8 +23,8 @@ Media Player 7.1 | :white_check_mark: | :white_check_mark: | :white_check_mark: 
 Media Player 8.0 | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | ⚠️ | :white_check_mark: | :white_check_mark: | ⚠️ | :white_check_mark: | :white_check_mark: | :x: | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | :x: | :x: | :x: | :x: | :x: | :x: |
 Media Player 9.0 | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | ⚠️ | :white_check_mark: | :white_check_mark: | ⚠️ | :white_check_mark: | :white_check_mark: | :white_check_mark: | ⚠️ | ⚠️ (9) | ⚠️ | ⚠️ | ⚠️ | :x: | :x: | :x: | :x: | :x: | :x: | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | :x: | ⚠️ | ⚠️ | ⚠️ | :white_check_mark: | :white_check_mark: | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | :white_check_mark: | :white_check_mark: | ⚠️ | ⚠️ |
 Media Player 10.0 | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | ⚠️ | :white_check_mark: | :white_check_mark: | ⚠️ | :white_check_mark: | :white_check_mark: | :white_check_mark: | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | :x: | :x: | :x: | :x: | :x: | :x: | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | :white_check_mark: | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | :white_check_mark: | :white_check_mark: | ⚠️ | ⚠️ |
-Media Player 11.0 | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | ⚠️ | :white_check_mark: | :white_check_mark: | :white_check_mark: | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | :x: | :x: | :x: | :x: | :x: |
-Media Player 12.0 | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | :white_check_mark: | ⚠️ | ⚠️ |
+Media Player 11.0 | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | ⚠️ | :white_check_mark: | :white_check_mark: | ⚠️ | :white_check_mark: | :white_check_mark: | :white_check_mark: | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | :x: | :x: | :x: | :x: | :x: |
+Media Player 12.0 | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | ⚠️ | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | :white_check_mark: | ⚠️ | ⚠️ |
 
 :white_check_mark: = Ready to play, compatible
 
@@ -34,7 +34,11 @@ Media Player 12.0 | :white_check_mark: | :white_check_mark: | :white_check_mark:
 
 :black_square_button: or Empty box = Not tested yet
 
-We strong recommend using VLC or MPV to play your media file, starting Windows XP and later.
+We strong recommend using VLC to play your media file, starting Windows XP and later.
+
+You can still use VLC for Windows 98/ME/2002, if you using KernelEX.
+
+MPV is for Windows 7 and later only.
 
 # Stream companies
 
