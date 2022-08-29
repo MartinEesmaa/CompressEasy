@@ -110,6 +110,21 @@ ffmpeg -i naiteks.mp4 -c:v libx264 -x264-params "nal-hrd=none" -x264opts keyint=
 ffmpeg -i naiteks.mp4 -c:v libx264 -x264-params "nal-hrd=none" -x264opts keyint=50:min-keyint=26:scenecut=0 -b:v 1.5M -maxrate 1.5M -bufsize 4M -r 25 -vf scale=1280:720 -pix_fmt yuv420p -color_primaries bt709 -color_trc bt709 -colorspace bt709 -color_range tv -c:a aac -ac 2 -ar 44100 -b:a 128k kokkuvote.ts
 ```
 
+### Netflix
+
+Netflix uses encode the video/audio by VMAF, AVC, VP9, AV1, AAC-LC, HE-AACv1 and AAC-LD before release.
+
+The video pixel format is always 8 bit.
+
+Netflix video/audio tables:
+
+Netflix | AVC | VP9 | AV1 | AAC-LC | HE-AACv1 | AAC-LD |
+--- | --- | --- | --- | --- | --- | --- |
+Browser | :white_check_mark: (1080p) | :white_check_mark: (720p) | :x: | :white_check_mark: | :white_check_mark: | :x: |
+Windows App | :white_check_mark: | :x: | :x: | :white_check_mark: | :x: | :x: |
+Android | :white_check_mark: (Save data only) | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: |
+IOS | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: |
+
 # Education purposes only.
 
 Please note, that is an education purposes only, how CompressEasy works.
