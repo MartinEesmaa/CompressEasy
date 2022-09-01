@@ -118,12 +118,18 @@ The video pixel format is always 8 bit.
 
 Netflix video/audio tables:
 
-Netflix | AVC | HEVC | VP9 | AV1 | AAC-LC | HE-AACv1 | xHE-AAC |
---- | --- | --- | --- | --- | --- | --- | --- |
-Browser | :white_check_mark: (1080p) | :white_check_mark: (Only Safari) | :white_check_mark: (720p) | :x: | :white_check_mark: | :white_check_mark: | :x: |
-Windows App | :white_check_mark: | :x: | :x: | :x: | :white_check_mark: | :x: | :x: |
-Android | :white_check_mark: (Save data only) | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: |
-IOS | :x: | ❓ | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: |
+Netflix | AVC | HEVC | VP9 | AV1 | AAC-LC | HE-AACv1 | xHE-AAC | Dolby Atmos |
+--- | --- | --- | --- | --- | --- | --- | --- | --- |
+Browser | :white_check_mark: (1080p) | :white_check_mark: (Only Safari) | :white_check_mark: (720p) | :x: | :white_check_mark: | :white_check_mark: | :x: | ❓ |
+Windows App | :white_check_mark: | :x: | :x: | :x: | :white_check_mark: | :x: | :x: | :x: |
+Android | :white_check_mark: (Save data only) | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: | ❓ |
+IOS | :x: | ❓ | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: | ❓ |
+TV | :white_check_mark: | :x: | ❓ | :white_check_mark: | :white_check_mark: | ❓ | ❓ | ❓ |
+
+Netflix 1080p Offline (x264):
+```
+ffmpeg -i uncompressed.mp4 -c:v libx264 -pix_fmt yuv420p -crf 24 -preset medium -c:a aac -b:a 96k result1080poffline.mp4
+```
 
 # Education purposes only.
 
