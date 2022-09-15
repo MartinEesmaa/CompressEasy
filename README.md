@@ -131,6 +131,67 @@ Netflix 1080p Offline (x264):
 ffmpeg -i uncompressed.mp4 -c:v libx264 -pix_fmt yuv420p -crf 24 -preset medium -c:a aac -b:a 96k result1080poffline.mp4
 ```
 
+# YouTube
+
+Here is all available formats:
+```
+[info] Available formats for gxVLjxlmi58:
+ID  EXT   RESOLUTION FPS HDR CH │   FILESIZE    TBR PROTO │ VCODEC           VBR ACODEC      ABR ASR MORE INFO
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+sb2 mhtml 48x27        1        │                   mhtml │ images                                   storyboard
+sb1 mhtml 80x45        1        │                   mhtml │ images                                   storyboard
+sb0 mhtml 160x90       1        │                   mhtml │ images                                   storyboard
+599 m4a   audio only          2 │  480.04KiB    31k https │ audio only           mp4a.40.5   31k 22k ultralow, m4a_dash
+600 webm  audio only          2 │  560.83KiB    36k https │ audio only           opus        36k 48k ultralow, webm_dash
+139 m4a   audio only          2 │  760.34KiB    49k https │ audio only           mp4a.40.5   49k 22k low, m4a_dash
+249 webm  audio only          2 │  809.45KiB    52k https │ audio only           opus        52k 48k low, webm_dash
+250 webm  audio only          2 │    1.03MiB    68k https │ audio only           opus        68k 48k low, webm_dash
+256 m4a   audio only          6 │    2.97MiB   195k https │ audio only           mp4a.40.5  195k 24k low, m4a_dash
+140 m4a   audio only          2 │    1.97MiB   130k https │ audio only           mp4a.40.2  130k 44k medium, m4a_dash
+251 webm  audio only          2 │    2.02MiB   133k https │ audio only           opus       133k 48k medium, webm_dash
+380 m4a   audio only          6 │    5.84MiB   384k https │ audio only           ac-3       384k 48k high, m4a_dash
+328 m4a   audio only          6 │    5.84MiB   384k https │ audio only           ec-3       384k 48k high, m4a_dash
+258 m4a   audio only          6 │    5.90MiB   388k https │ audio only           mp4a.40.2  388k 48k high, m4a_dash
+17  3gp   176x144      8      1 │    1.18MiB    77k https │ mp4v.20.3        77k mp4a.40.2    0k 22k 144p
+597 mp4   256x144     15        │  526.71KiB    34k https │ avc1.4d400b      34k video only          144p, mp4_dash
+598 webm  256x144     15        │  436.94KiB    28k https │ vp9              28k video only          144p, webm_dash
+160 mp4   256x144     30        │    1.13MiB    74k https │ avc1.4d400c      74k video only          144p, mp4_dash
+278 webm  256x144     30        │    1.11MiB    73k https │ vp9              73k video only          144p, webm_dash
+694 mp4   256x144     60 10     │    2.07MiB   136k https │ av01.0.00M.10   136k video only          144p60 HDR, mp4_dash
+330 webm  256x144     60 10     │    2.95MiB   194k https │ vp9.2           194k video only          144p60 HDR, webm_dash
+133 mp4   426x240     30        │    2.48MiB   163k https │ avc1.4d4015     163k video only          240p, mp4_dash
+242 webm  426x240     30        │    1.89MiB   124k https │ vp9             124k video only          240p, webm_dash
+695 mp4   426x240     60 10     │    4.31MiB   284k https │ av01.0.01M.10   284k video only          240p60 HDR, mp4_dash
+331 webm  426x240     60 10     │    6.21MiB   409k https │ vp9.2           409k video only          240p60 HDR, webm_dash
+134 mp4   640x360     30        │    4.61MiB   303k https │ avc1.4d401e     303k video only          360p, mp4_dash
+18  mp4   640x360     30      2 │ ~  6.74MiB   431k https │ avc1.42001E     431k mp4a.40.2    0k 44k 360p
+243 webm  640x360     30        │    3.26MiB   215k https │ vp9             215k video only          360p, webm_dash
+696 mp4   640x360     60 10     │    8.98MiB   591k https │ av01.0.04M.10   591k video only          360p60 HDR, mp4_dash
+332 webm  640x360     60 10     │   13.47MiB   887k https │ vp9.2           887k video only          360p60 HDR, webm_dash
+135 mp4   854x480     30        │    8.52MiB   561k https │ avc1.4d401f     561k video only          480p, mp4_dash
+244 webm  854x480     30        │    5.62MiB   370k https │ vp9             370k video only          480p, webm_dash
+697 mp4   854x480     60 10     │   16.80MiB  1106k https │ av01.0.05M.10  1106k video only          480p60 HDR, mp4_dash
+333 webm  854x480     60 10     │   25.87MiB  1703k https │ vp9.2          1703k video only          480p60 HDR, webm_dash
+22  mp4   1280x720    30      2 │ ~ 18.94MiB  1212k https │ avc1.64001F    1212k mp4a.40.2    0k 44k 720p
+136 mp4   1280x720    30        │   16.47MiB  1084k https │ avc1.64001f    1084k video only          720p, mp4_dash
+247 webm  1280x720    30        │   10.76MiB   708k https │ vp9             708k video only          720p, webm_dash
+298 mp4   1280x720    60        │   22.68MiB  1493k https │ avc1.640020    1493k video only          720p60, mp4_dash
+302 webm  1280x720    60        │   17.35MiB  1142k https │ vp9            1142k video only          720p60, webm_dash
+698 mp4   1280x720    60 10     │   46.22MiB  3043k https │ av01.0.08M.10  3043k video only          720p60 HDR, mp4_dash
+334 webm  1280x720    60 10     │   61.86MiB  4072k https │ vp9.2          4072k video only          720p60 HDR, webm_dash
+299 mp4   1920x1080   60        │   41.72MiB  2746k https │ avc1.64002a    2746k video only          1080p60, mp4_dash
+303 webm  1920x1080   60        │   27.26MiB  1795k https │ vp9            1795k video only          1080p60, webm_dash
+699 mp4   1920x1080   60 10     │   74.78MiB  4923k https │ av01.0.09M.10  4923k video only          1080p60 HDR, mp4_dash
+335 webm  1920x1080   60 10     │   95.66MiB  6297k https │ vp9.2          6297k video only          1080p60 HDR, webm_dash
+308 webm  2560x1440   60        │   79.27MiB  5218k https │ vp9            5218k video only          1440p60, webm_dash
+700 mp4   2560x1440   60 10     │  199.96MiB 13163k https │ av01.0.12M.10 13163k video only          1440p60 HDR, mp4_dash
+336 webm  2560x1440   60 10     │  234.31MiB 15424k https │ vp9.2         15424k video only          1440p60 HDR, webm_dash
+315 webm  3840x2160   60        │  153.99MiB 10137k https │ vp9           10137k video only          2160p60, webm_dash
+701 mp4   3840x2160   60 10     │  365.76MiB 24077k https │ av01.0.13M.10 24077k video only          2160p60 HDR, mp4_dash
+337 webm  3840x2160   60 10     │  420.62MiB 27689k https │ vp9.2         27689k video only          2160p60 HDR, webm_dash
+702 mp4   7680x4320   60 10     │  772.67MiB 50863k https │ av01.0.17M.10 50863k video only          4320p60 HDR, mp4_dash
+```
+
 # Education purposes only.
 
 Please note, that is an education purposes only, how CompressEasy works.
