@@ -133,7 +133,9 @@ ffmpeg -i uncompressed.mp4 -c:v libx264 -pix_fmt yuv420p -crf 24 -preset medium 
 
 # YouTube
 
-Here is all available formats:
+Here is all available formats of my forked gist: https://gist.github.com/MartinEesmaa/2f4b261cb90a47e9c41ba115a011a4aa
+
+Example of `yt-dlp --list-formats https://youtu.be/gxVLjxlmi58` of my video:
 ```
 [info] Available formats for gxVLjxlmi58:
 ID  EXT   RESOLUTION FPS HDR CH │   FILESIZE    TBR PROTO │ VCODEC           VBR ACODEC      ABR ASR MORE INFO
