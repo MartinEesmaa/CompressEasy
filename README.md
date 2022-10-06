@@ -30,11 +30,11 @@ Media Player 10.0 | :white_check_mark: | :white_check_mark: | :white_check_mark:
 Media Player 11.0 | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | ⚠️ | :white_check_mark: | :white_check_mark: | ⚠️ | :white_check_mark: | :white_check_mark: | :white_check_mark: | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | :x: | :x: | :x: | :x: | :x: |
 Media Player 12.0 | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | ⚠️ | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | :white_check_mark: | ⚠️ | ⚠️ |
 
-:white_check_mark: = Ready to play, compatible
+:white_check_mark: = Ready built-in to play with WMV player.
 
 ⚠️ = Needs required codec or external program to play video codec before VLC, MPV and other alternative media players
 
-:x: = Not compatible codec with Windows Media Player
+:x: = Not compatible codec with Windows Media Player versions.
 
 :black_square_button: or Empty box = Not tested yet
 
