@@ -112,7 +112,7 @@ ffmpeg -i naiteks.mp4 -c:v libx264 -x264-params "nal-hrd=none" -x264opts keyint=
 
 ### Netflix
 
-Netflix uses encode the video/audio by VMAF, AVC, VP9, AV1, AAC-LC, HE-AACv1 and AAC-LD before release.
+Netflix uses encode the video/audio by VMAF, AVC, VP9, AV1, AAC-LC, HE-AACv1 and xHE-AAC before release.
 
 The video pixel format is always 8 bit.
 
