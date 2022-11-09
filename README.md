@@ -123,7 +123,7 @@ Netflix | AVC | HEVC | VP9 | AV1 | AAC-LC | HE-AACv1 | xHE-AAC | Dolby Atmos |
 Browser | :white_check_mark: (1080p) | :white_check_mark: (Only Safari) | :white_check_mark: (720p) | :x: | :white_check_mark: | :white_check_mark: | :x: | ❓ |
 Windows App | :white_check_mark: | :x: | :x: | :x: | :white_check_mark: | :x: | :x: | :x: |
 Android | :white_check_mark: (Save data only) | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: | ❓ |
-IOS | :x: | ❓ | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: | ❓ |
+IOS | :white_check_mark: | :white_check_mark: (Online only) | :x: | :x: | :x: | :white_check_mark: | :x: | ❓ |
 TV | :white_check_mark: | :x: | ❓ | :white_check_mark: | :white_check_mark: | ❓ | ❓ | ❓ |
 
 Netflix 1080p Offline (x264):
