@@ -10,9 +10,9 @@ Windows 3.1: BMP, AVI (Microsoft RLE/Video 1, Indeo Video & Cinepak), WAV, (exte
 
 Windows 2000:
 
-Windows | WAV | BMP | AVI | MID | MP3 | ZIP | MPG | JPG | GIF | AU | AIF | SWF |
---- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-3.1x | :white_check_mark: (PCM, ADPCM) | :white_check_mark: | :white_check_mark: | :white_check_mark: | 🆗 (WinPlay3) | 🆗 (WinZip Deflate) | 🆗 (XingMPEG MPEG-1) | 🆗 (IE) | 🆗 (IE) | 🆗 (IE) | 🆗 (IE) | 🆗 (Netscape) |
+Windows | WAV | BMP | AVI | MID | MP3 | ZIP | MPG | JPG | GIF | AU | AIF | SWF | MOV |
+--- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+3.1x | :white_check_mark: (PCM, ADPCM) | :white_check_mark: | :white_check_mark: | :white_check_mark: | 🆗 (WinPlay3) | 🆗 (WinZip Deflate) | 🆗 (XingMPEG MPEG-1) | 🆗 (IE) | 🆗 (IE) | 🆗 (IE) | 🆗 (IE) | 🆗 (Netscape) | 🆗 (Apple Movie Player)
 
 # Video codecs availability
 
@@ -40,7 +40,7 @@ Media Player 12.0 | :white_check_mark: | :white_check_mark: | :white_check_mark:
 
 We strong recommend using VLC to play your media file, starting Windows XP and later.
 
-You can still use VLC for Windows 98/ME/2002, if you using KernelEX.
+You can still use VLC for Windows 98 and ME, if you using KernelEX.
 
 MPV is for Windows 7 and later only.
 
@@ -118,13 +118,13 @@ The video pixel format is always 8 bit.
 
 Netflix video/audio tables:
 
-Netflix | AVC | HEVC | VP9 | AV1 | AAC-LC | HE-AACv1 | xHE-AAC | Dolby Atmos |
+Netflix | AVC | HEVC | VP9 | AV1 | AAC-LC | HE-AACv1 | xHE-AAC | Dolby Atmos (Ultra HD plan only) |
 --- | --- | --- | --- | --- | --- | --- | --- | --- |
-Browser | :white_check_mark: (1080p) | :white_check_mark: (Only Safari) | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :x: | ❓ |
-Windows App | :white_check_mark: | :x: | :x: | :x: | :white_check_mark: | :x: | :x: | :x: |
+Browser | :white_check_mark: | :white_check_mark: (Only Safari) | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :x: | ❓ |
+Windows App | :white_check_mark: | :white_check_mark: (4K only) | :x: | :x: | :white_check_mark: | :x: | :x: | :x: |
 Android | :white_check_mark: (Save data only) | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: | ❓ |
 IOS | :white_check_mark: | :white_check_mark: (Online only) | :x: | :x: | :x: | :white_check_mark: | :x: | ❓ |
-TV | :white_check_mark: | :x: | ❓ | :white_check_mark: | :white_check_mark: | ❓ | ❓ | ❓ |
+TV | :white_check_mark: | :x: | ❓ | :white_check_mark: | :white_check_mark: | ❓ | :x: | :white_check_mark: |
 
 Netflix 1080p Offline (x264):
 ```
