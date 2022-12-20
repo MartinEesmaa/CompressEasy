@@ -118,13 +118,15 @@ The video pixel format is always 8 bit.
 
 Netflix video/audio tables:
 
-Netflix | AVC | HEVC | VP9 | AV1 | AAC-LC | HE-AACv1 | xHE-AAC | Dolby Atmos (Ultra HD plan only) |
+Netflix | AVC | HEVC | VP9 | AV1 | AAC-LC | HE-AACv1 | xHE-AAC | Dolby Digital Plus (Ultra HD plan only) |
 --- | --- | --- | --- | --- | --- | --- | --- | --- |
-Browser | :white_check_mark: | :white_check_mark: (Only Safari) | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :x: | ❓ |
+Browser | :white_check_mark: | :white_check_mark: (Only Safari and Edge) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: (Only Safari and Edge) |
 Windows App | :white_check_mark: | :white_check_mark: (4K only) | :x: | :x: | :white_check_mark: | :x: | :x: | :x: |
-Android | :white_check_mark: (Save data only) | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: | ❓ |
-IOS | :white_check_mark: | :white_check_mark: (Online only) | :x: | :x: | :x: | :white_check_mark: | :x: | ❓ |
-TV | :white_check_mark: | :x: | ❓ | :white_check_mark: | :white_check_mark: | ❓ | :x: | :white_check_mark: |
+Android | :white_check_mark: (Save data only) | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: | :x: |
+IOS | :white_check_mark: | :white_check_mark: (Online only) | :x: | :x: | :x: | :white_check_mark: | :x: | :white_check_mark: (Requires Spatial Audio & Airpods Pro/Max) |
+TV | :white_check_mark: | :x: | ❓ | :white_check_mark: | :white_check_mark: | ❓ | :x: | :white_check_mark: (Requires compatible TV) |
+
+**Note: If the clients wants to play AV1, HEVC or/and Dolby Vision/Atmos in your browser, the link is [here](https://github.com/lkmvip/netflix-4K-DDplus). Make sure you have Netflix Ultra HD plan to get Dolby Atmos audio access.**
 
 Netflix 1080p Offline (x264):
 ```
