@@ -128,6 +128,15 @@ TV | :white_check_mark: | :x: | ❓ | :white_check_mark: | :white_check_mark: | 
 
 **Note: If the clients wants to play AV1, HEVC or/and Dolby Vision/Atmos in your browser, the link is [here](https://github.com/lkmvip/netflix-4K-DDplus). Make sure you have Netflix Ultra HD plan to get Dolby Atmos audio access.**
 
+# Netflix audio bitrates
+
+Netflix | Bitrates
+--- | --- |
+AAC-LC | 96, 128, 192 kb/s
+HE-AACv1 | 64, 96, 128, 192 kb/s
+xHE-AAC | 32, 64, 96, 192 kb/s
+Dolby Digital Plus | 192, 256, 384, 448, 640 kb/s
+
 Netflix 1080p Offline (x264):
 ```
 ffmpeg -i uncompressed.mp4 -c:v libx264 -pix_fmt yuv420p -crf 24 -preset medium -c:a aac -b:a 96k result1080poffline.mp4
