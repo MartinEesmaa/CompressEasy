@@ -135,7 +135,7 @@ Netflix | Bitrates
 AAC-LC | 96, 128, 192 kb/s
 HE-AACv1 | 64, 96, 128, 192 kb/s
 xHE-AAC | 32, 64, 96, 192 kb/s
-Dolby Digital Plus | 192, 256, 384, 448, 640 kb/s
+Dolby Digital Plus | 192, 256, 384, 448, 640, 768 kb/s
 
 Netflix 1080p Offline (x264):
 ```
